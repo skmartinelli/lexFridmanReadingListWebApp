@@ -64,6 +64,19 @@ h2{
         padding: 10px;
     }
 
+    input[type="checkbox"] {
+        cursor: pointer;
+        transform: scale(4);
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+
+    .hearts{
+        font-size:xx-large;
+        padding-left: 10px;
+    }
+
+
     .book-item label {
         font-size: larger;
     }
