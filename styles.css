@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#bookList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.book-item {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+
+.hearts{
+    padding-left: 6px;
+    padding-right: -3px;
+}
+
+.book-item label {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    transform: scale(1.5);
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .book-item label {
+        font-size: 14px;
+    }
+}
