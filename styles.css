@@ -60,6 +60,11 @@ h2{
 }
 
 @media (max-width: 1025px) {
+
+    h1{
+        font-size: xx-large;
+        text-align: center;
+    }
     body {
         padding: 10px;
     }
