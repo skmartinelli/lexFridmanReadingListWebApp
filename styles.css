@@ -55,14 +55,16 @@ h2{
 }
 
 
+.book-item label {
+    font-size: large;
+}
 
-
-@media (max-width: 600px) {
+@media (max-width: 1025px) {
     body {
         padding: 10px;
     }
 
     .book-item label {
-        font-size: 20px;
+        font-size: larger;
     }
 }
