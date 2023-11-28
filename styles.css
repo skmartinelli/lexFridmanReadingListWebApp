@@ -66,13 +66,13 @@ h2{
 
     input[type="checkbox"] {
         cursor: pointer;
-        transform: scale(3.5);
+        transform: scale(4);
         margin-right: 10px;
         vertical-align: middle;
     }
 
     .hearts{
-        font-size:55px;
+        font-size:66px;
         padding-left: 30px;
     }
 
